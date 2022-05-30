@@ -14,7 +14,7 @@
   resources are created and tag them automatically
   ```
 </details>
-<details><summary>Shutdown dev EC2 and RDS instance on weekends</summary>
+<details><summary>Automatically shutdown Dev EC2 and RDS instance on weekends</summary>
 
   ```css
   Group EC2 and RDS by taging appropriately and stop them weekends and start them on weekdays
