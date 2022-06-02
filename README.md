@@ -20,3 +20,14 @@
   Group EC2 and RDS by taging appropriately and stop them weekends and start them on weekdays
   ```
 </details>
+
+## AWS Issues faced
+<details><summary>CNAMEAlreadyExists Exception</summary>
+  [here](https://aws.amazon.com/premiumsupport/knowledge-center/resolve-cnamealreadyexists-error/)
+
+  ```css
+ 
+  [here](https://aws.amazon.com/premiumsupport/knowledge-center/resolve-cnamealreadyexists-error/)
+  ```
+</details>
+
