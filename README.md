@@ -1,3 +1,4 @@
+This site was built using [GitHub Pages](https://pages.github.com/).
 # AWS Real Worlk Tasks
 ## AWS Lambda Tasks
 <details><summary>Send alerts if AWS KMS is not rotated</summary>
@@ -23,11 +24,8 @@
 
 ## AWS Issues faced
 <details><summary>CNAMEAlreadyExists Exception</summary>
-  [here](https://aws.amazon.com/premiumsupport/knowledge-center/resolve-cnamealreadyexists-error/)
-
   ```css
- 
-  [here](https://aws.amazon.com/premiumsupport/knowledge-center/resolve-cnamealreadyexists-error/)
+   Read the following link about the issues
+   https://aws.amazon.com/premiumsupport/knowledge-center/resolve-cnamealreadyexists-error/
   ```
 </details>
-
