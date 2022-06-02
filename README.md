@@ -24,8 +24,10 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 ## AWS Issues faced
 <details><summary>CNAMEAlreadyExists Exception</summary>
-  ```css
-   Read the following link about the issues
-   https://aws.amazon.com/premiumsupport/knowledge-center/resolve-cnamealreadyexists-error/
+  
   ```
+     Read the following link about the issues
+     https://aws.amazon.com/premiumsupport/knowledge-center/resolve-cnamealreadyexists-error/
+  ```
+  
 </details>
