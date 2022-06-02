@@ -1,4 +1,4 @@
-This site was built using [GitHub Pages](https://pages.github.com/).
+
 # AWS Real Worlk Tasks
 ## AWS Lambda Tasks
 <details><summary>Send alerts if AWS KMS is not rotated</summary>
