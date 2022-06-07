@@ -1,6 +1,6 @@
 
-# AWS Real Worlk Tasks
-## AWS Lambda Tasks
+# AWS Real World Tasks
+## AWS Tasks I've worked in my Projects
 <details><summary>Send alerts if AWS KMS is not rotated</summary>
 
   ```css
@@ -27,6 +27,13 @@
   Lambda function should be deployed in private subnet, database credentials should be stored in
   secrets manager, configure secrets manager interface endpoint in a VPC so lambda can accesss
   secrets manager over aws private network.
+  ```
+</details>
+<details><summary>Grant S3 Bucket access only to specifc users</summary>
+
+  ```css
+  For our client we are storing PII data in S3 bucket and to protect that from ananymous users 
+  we should create S3 bucket policy so that only selective users can read
   ```
 </details>
 
