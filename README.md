@@ -21,6 +21,14 @@
   Group EC2 and RDS by taging appropriately and stop them weekends and start them on weekdays
   ```
 </details>
+<details><summary>Automate RDS native backups of Microsoft SQL Server</summary>
+
+  ```css
+  Lambda function should be deployed in private subnet, database credentials should be stored in
+  secrets manager, configure secrets manager interface endpoint in a VPC so lambda can accesss
+  secrets manager over aws private network.
+  ```
+</details>
 
 ## AWS Issues faced
 <details><summary>CNAMEAlreadyExists Exception</summary>
