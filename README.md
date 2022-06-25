@@ -36,6 +36,13 @@
   we should create S3 bucket policy so that only selective users can read
   ```
 </details>
+<details><summary>Deny S3 Uploads if encryption at rest is not enabled</summary>
+
+  ```css
+  For our client we are storing PII data in S3 bucket and to protect that from ananymous users 
+  we should create S3 bucket policy so that only selective users can read
+  ```
+</details>
 
 ## AWS Issues faced
 <details><summary>CNAMEAlreadyExists Exception</summary>
