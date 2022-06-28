@@ -44,6 +44,13 @@
   ```
 </details>
 
+<details><summary>Enable DynamoDB table backup</summary>
+
+  ```css
+      Enable backups on specified dynamoDB backups
+  ```
+</details>
+
 ## AWS Issues faced
 <details><summary>CNAMEAlreadyExists Exception</summary>
   
