@@ -71,7 +71,7 @@
   If we see above error in metrics server deployment. we need to add **- --kubelet-insecure-tls** in container args which will disable tls verification. as shown below screenshoot. This won't fix the actual issue. Temporarily mitigate the problem.
   ![metrics-servers-certs-issue](https://github.com/javahometech/aws-real-work/blob/main/images/metrics-servers-certs-issue.png)
   
-  We need to configure signed certificates. To enable signed kubelet serving certificates follow the below links.
+  To fix this permanently. we need to configure signed certificates. To enable signed kubelet serving certificates follow the below links.
   
   https://github.com/kubernetes-sigs/metrics-server/issues/196#issuecomment-1006601727
   
