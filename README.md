@@ -68,9 +68,7 @@
   ```
  "Failed to scrape node" err="Get \"https://IP:10250/metrics/resource\": x509: cannot validate certificate for IP because it doesn't contain any IP SANs" node="node01"
   ```
-  ```
-  If we see above error in metrics server deployment. we need to add "- --kubelet-insecure-tls" in container args. as shown below screenshoot.
-  ```
+  If we see above error in metrics server deployment. we need to add **- --kubelet-insecure-tls** in container args. as shown below screenshoot.
   ![metrics-servers-certs-issue](https://github.com/javahometech/aws-real-work/blob/main/images/metrics-servers-certs-issue.png)
 </details>
 
