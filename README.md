@@ -70,7 +70,7 @@
   ```
   ```
   If we see above error in metrics server deployment. we need to add "- --kubelet-insecure-tls" in container args. as shown below screenshoot.
-  ![metrics-servers-certs-issue](https://github.com/javahometech/aws-real-work/blob/main/images/metrics-servers-certs-issue.png)
   ```
+  ![metrics-servers-certs-issue](https://github.com/javahometech/aws-real-work/blob/main/images/metrics-servers-certs-issue.png)
 </details>
 
