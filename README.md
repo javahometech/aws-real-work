@@ -72,7 +72,9 @@
   ![metrics-servers-certs-issue](https://github.com/javahometech/aws-real-work/blob/main/images/metrics-servers-certs-issue.png)
   
   We need to configure signed certificates. To enable signed kubelet serving certificates follow the below links.
+  
   https://github.com/kubernetes-sigs/metrics-server/issues/196#issuecomment-1006601727
+  
   https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/#kubelet-serving-certs
 </details>
 
