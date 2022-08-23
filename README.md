@@ -100,4 +100,5 @@ If both master and worker nodes use the same security group, you have the option
 8472/udp
 # CoreDNS 
 9153/tcp (metrics port)
+```
 </details>
