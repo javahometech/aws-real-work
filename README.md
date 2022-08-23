@@ -78,3 +78,27 @@
   https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/#kubelet-serving-certs
 </details>
 
+<details><summary>Join Worker Nodes to Cluster set EC2 Security Group Inbound Rules</summary>
+
+When we run [kubeadm join command](https://github.com/javahometech/kubernetes/blob/master/setup-kubernetes-with-kubeadmn.md#6-take-note-of-kubeadm-command-and-run-on-all-workers) If your Security Group inbound rules are not set properly, you will notice that the process waits indefinitely after the below output is shown. Step 6 shows how to solve this
+
+![kubeadm join port issue](https://github.com/javahometech/kubernetes/blob/master/images/kubeadm%20join%20port%20issue.png)
+
+If both master and worker nodes use the same security group, you have the option to allow all inbound traffic originating from the same security group
+
+
+```
+#Kubernetes Control Plane Nodes
+6443/tcp
+2379-2380/tcp
+10250-10252/tcp
+#Kubernetes Worker Nodes
+10250/tcp
+30000-32767/tcp
+# Flannel
+8285/udp 
+8472/udp
+# CoreDNS 
+9153/tcp (metrics port)
+```
+</details>
