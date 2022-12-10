@@ -104,15 +104,12 @@ If both master and worker nodes use the same security group, you have the option
 </details>
 
 <details><summary>While configuring pod as jenkins agent if we get remote directory access issue as follows</summary>
-
-  
   ![remote directory access issue](https://github.com/javahometech/aws-real-work/blob/main/images/pod%20as%20jenkins%20slave.png)
   
- 
   We need to add security context for pod [security context for a Pod](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-pod) or for container [security context for a Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-container)
   
   ![Security Context for Pod](https://github.com/javahometech/aws-real-work/blob/main/images/Security%20Context%20for%20pod%20or%20container.png)
+</details>
 
-
-
+<details><summary>While configuring dynamic pvc if you see issue</summary>
 </details>
