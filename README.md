@@ -54,7 +54,7 @@
 ## AWS Issues faced
 <details><summary>CNAMEAlreadyExists Exception</summary>
   
-  ```
+  ```css
      Read the following link about the issues
      https://aws.amazon.com/premiumsupport/knowledge-center/resolve-cnamealreadyexists-error/
   ```
@@ -65,7 +65,7 @@
 
 <details><summary>Metrics server certificates issue</summary>
   
-  ```
+  ```css
  "Failed to scrape node" err="Get \"https://IP:10250/metrics/resource\": x509: cannot validate certificate for IP because it doesn't contain any IP SANs" node="node01"
   ```
   If we see above error in metrics server deployment. we need to add **- --kubelet-insecure-tls** in container args which will disable tls verification. as shown below screenshoot. This won't fix the actual issue. Temporarily mitigate the problem.
@@ -87,7 +87,7 @@ When we run [kubeadm join command](https://github.com/javahometech/kubernetes/bl
 If both master and worker nodes use the same security group, you have the option to allow all inbound traffic originating from the same security group
 
 
-```
+```css
 #Kubernetes Control Plane Nodes
 6443/tcp
 2379-2380/tcp
@@ -112,5 +112,12 @@ If both master and worker nodes use the same security group, you have the option
   ![Security Context for Pod](https://github.com/javahometech/aws-real-work/blob/main/images/Security%20Context%20for%20pod%20or%20container.png)
 </details>
 
-<details><summary>While configuring dynamic pvc if you see issue</summary>
+<details><summary>While configuring dynamic pvc if you see issue schedule issue as follows</summary>
+  
+  ![Dynamic PVC Schedule issue](https://github.com/javahometech/aws-real-work/blob/main/images/Dynamic%20PVC%20schedule%20issue.png)
+  
+   We need to configure _**aws-ebs-csi-driver**_ with below command if missed to insatll.
+  ```css
+  kubectl apply -k "github.com/kubernetes-sigs/aws-ebs-csi-driver/deploy/kubernetes/overlays/stable/?ref=release-1.13"
+  ```
 </details>
