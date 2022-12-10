@@ -102,3 +102,9 @@ If both master and worker nodes use the same security group, you have the option
 9153/tcp (metrics port)
 ```
 </details>
+
+<details><summary>While configuring pod as jenkins agent if we get remote directory access issue as follows</summary>
+![remote directory access issue](https://github.com/javahometech/aws-real-work/blob/main/images/pod%20as%20jenkins%20slave.png)
+
+
+</details>
